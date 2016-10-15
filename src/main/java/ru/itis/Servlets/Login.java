@@ -30,18 +30,15 @@ public class Login extends HttpServlet{
                 session.setAttribute("authorized","ok");
                 session.setAttribute("login",loginField);
                 session.setAttribute("password",passwordField);
-//                RequestDispatcher dispatcher = req.getRequestDispatcher("/jsp/Registration.jsp");
-//                dispatcher.forward(req, resp);
-                resp.sendRedirect("/mainPage");
+                resp.sendRedirect("/");
             } else {
                 String varTextB = "Не удалось войти в систему!";
                 req.setAttribute("textB", varTextB);
-                req.getRequestDispatcher("/jsp/Login.jsp").forward(req, resp);
+                resp.sendRedirect("/Login");
             }
         }
-//            req.getRequestDispatcher("/mainPage.jsp").forward(req,resp);
         else {
-            req.getRequestDispatcher("/jsp/Login.jsp").forward(req,resp);
+            resp.sendRedirect("/jsp/Login.jsp");
         }
     }
 

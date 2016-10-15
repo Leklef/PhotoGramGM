@@ -23,8 +23,9 @@ public class Registration extends HttpServlet {
         String password = req.getParameter("password");
         if(!(DBWorker.usedNickname(nick))){
             DBWorker.addInfoDB(email,name,nick,password);
+            resp.sendRedirect("/");
         }else{
-            req.getRequestDispatcher("/jsp/Registration.jsp").forward(req,resp);
+            resp.sendRedirect("/Registration");
         }
     }
 
