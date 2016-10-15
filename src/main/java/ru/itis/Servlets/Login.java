@@ -1,6 +1,6 @@
 package ru.itis.Servlets;
 
-import ru.itis.DBWorker;
+import ru.itis.DataBase.DBWorker;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 
 /**
@@ -19,19 +20,23 @@ public class Login extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
+        resp.setStatus(200);
         String loginField = req.getParameter("nickname");
         String passwordField = req.getParameter("password");
 
         if (!(loginField == null) & !(passwordField == null)) {
             if (DBWorker.assertUser(loginField, passwordField)) {
                 HttpSession session = req.getSession();
-                session.setAttribute("authorized", "ok");
-                RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/mainPage.jsp");
-                dispatcher.forward(req, resp);
+                session.setAttribute("authorized","ok");
+                session.setAttribute("login",loginField);
+                session.setAttribute("password",passwordField);
+//                RequestDispatcher dispatcher = req.getRequestDispatcher("/jsp/Registration.jsp");
+//                dispatcher.forward(req, resp);
+                resp.sendRedirect("/mainPage");
             } else {
-            String varTextB = "Не удалось войти в систему!";
-            req.setAttribute("textB", varTextB);
-            req.getRequestDispatcher("/jsp/Login.jsp").forward(req, resp);
+                String varTextB = "Не удалось войти в систему!";
+                req.setAttribute("textB", varTextB);
+                req.getRequestDispatcher("/jsp/Login.jsp").forward(req, resp);
             }
         }
 //            req.getRequestDispatcher("/mainPage.jsp").forward(req,resp);

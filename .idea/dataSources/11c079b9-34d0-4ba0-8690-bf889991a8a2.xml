@@ -10,7 +10,9 @@
     <schema id="5" name="sys"/>
     <table id="6" parent="1" name="users"/>
     <column id="7" parent="6" name="id">
+      <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
+      <sequence-identity>1</sequence-identity>
     </column>
     <column id="8" parent="6" name="email">
       <mandatory>1</mandatory>
@@ -28,5 +30,9 @@
       <mandatory>1</mandatory>
       <data-type>varchar(60)|0</data-type>
     </column>
+    <key id="12" parent="6" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
   </database-model>
 </dataSource>

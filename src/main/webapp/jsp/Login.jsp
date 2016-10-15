@@ -17,10 +17,10 @@
 <body>
 <div id="signin">
     <h1>PhotoGram</h1>
-    <form action="Login" method="POST">
+    <form method="POST" id="loginForm" name="form">
     <input class="input3" name="nickname" id="nickname" type="text" size="38" placeholder="Логин">
     <input class="input3" name="password" id="password" type="password" size="38" placeholder="Пароль">
-    <button type="submit" name="Login" id="Login"><strong>Войти</strong></button>
+    <button type="submit" name="Login" id="Login" onclick="document.form.action='/Login'"><strong>Войти</strong></button>
     </form>
     </div>
 <div id="registration">
