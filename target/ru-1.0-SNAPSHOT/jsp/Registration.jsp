@@ -6,11 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <html>
 <head>
     <title>PhotoGram</title>
-    <link href="${pageContext.request.contextPath}../../css/RegistrationStyle.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/css/RegistrationStyle.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.validate.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/RegistrationJS.js"></script>

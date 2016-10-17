@@ -9,13 +9,13 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by lenar on 15.10.16.
+ * Created by lenar on 17.10.16.
  */
-@WebServlet("/")
-public class Main extends HttpServlet{
+@WebServlet("/News")
+public class News extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/Main.jsp").forward(req,resp);
+        req.getRequestDispatcher("/jsp/News.jsp").forward(req,resp);
     }
 
     @Override

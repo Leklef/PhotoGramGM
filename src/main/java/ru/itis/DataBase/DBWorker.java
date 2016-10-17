@@ -41,7 +41,6 @@ public class DBWorker {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            // Закрываем S, не допуская их утечки.
             if (stmt != null) {
                 try {
                     stmt.close();
@@ -101,20 +100,5 @@ public class DBWorker {
             e.printStackTrace();
         }
         return correct;
-//        try{
-//            //DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-//            connection = getConnection();
-//            Statement statement = connection.createStatement();
-//            ResultSet rs = statement.executeQuery("SELECT nick,password\n" +
-//                    "FROM users");
-//            while (rs.next()){
-//                if (loginField.equals(rs.getString("nick"))){
-//                    if (passwordField.equals(rs.getString("password"))){
-//                        correct = true;
-//                    }
-//                }
-//            }
-//        }catch (SQLException selectException){}
-//        return correct;
     }
 }

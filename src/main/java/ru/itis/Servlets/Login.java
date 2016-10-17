@@ -30,7 +30,7 @@ public class Login extends HttpServlet{
                 session.setAttribute("authorized","ok");
                 session.setAttribute("login",loginField);
                 session.setAttribute("password",passwordField);
-                resp.sendRedirect("/");
+                resp.sendRedirect("/News");
             } else {
                 String varTextB = "Не удалось войти в систему!";
                 req.setAttribute("textB", varTextB);
@@ -38,7 +38,7 @@ public class Login extends HttpServlet{
             }
         }
         else {
-            resp.sendRedirect("/jsp/Login.jsp");
+            resp.sendRedirect("/Login");
         }
     }
 
