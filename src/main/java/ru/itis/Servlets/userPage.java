@@ -9,21 +9,24 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by lenar on 17.10.16.
+ * Created by lenar on 21.10.16.
  */
-@WebServlet("/News")
-public class News extends HttpServlet {
+@WebServlet("/")
+public class userPage extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/News.jsp").forward(req,resp);
+        req.getRequestDispatcher("/jsp/userPage.jsp").forward(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if(req.getParameter("exit")!=null) {
+        if (req.getParameter("exit") != null) {
             HttpSession session = req.getSession();
             session.invalidate();
             resp.sendRedirect("/Login");
+        }
+        if (req.getParameter("addPhoto") != null) {
+            resp.sendRedirect("/NewPost");
         }
     }
 }

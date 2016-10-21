@@ -1,23 +1,29 @@
-.header{
-    background: white;
+body{
+    background-color: rgb(250, 250, 250);
+}
+#registration{
+    background-color: white;
+    width: 25%;
+    height: 78%;
     position: absolute;
-    top:0px;
-    width:100%;
+    top: 10%;
+    left: 39%;
+    outline:solid 1px;
+    outline-color: rgb(239, 239, 239);
+    font-family: "Helvetica Neue";
+}
+#signin{
+    background-color: white;
+    width: 25%;
+    height: 7%;
+    position: absolute;
+    top:90%;
+    left: 39%;
+    outline:solid 1px;
+    outline-color: rgba(239, 239, 239, 0.36);
+    text-align: center;
+    font-family: "Helvetica Neue";
 
-}
-.header h1{
-    font-family: "Helvetica Neue";
-}
-#search{
-    position: absolute;
-    top:30px;
-    left: 49%;
-    height: 27px;
-    width: 15%;
-    border:1px solid;
-    border-color: rgb(210,210,210);
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
 }
 
 .input3                                  {font-size: 14px;}
@@ -31,20 +37,61 @@
 .input3:focus:-moz-placeholder           {line-height: 100px; transition: line-height 0.5s ease;}
 .input3:focus:-ms-input-placeholder      {line-height: 100px; transition: line-height 0.5s ease;}
 
+h1{
+    text-align: center;
+}
 
-.myprofile{
-    position: absolute;
-    top:30px;
-    left:65%;
-    height:30px;
-    font-size: 15px;
-    color: black;
-    background-color: white;
-    border: 1px solid;
+h2{
+    text-align: center;
+    color:gray;
+}
+
+#email{
+    height: 30px;
+    position: relative;
+    left: 9%;
+    border:1px solid;
+    border-color: rgb(210,210,210);
     border-radius: 3px;
     font-family: "Helvetica Neue";
 }
-.myprofile:hover{
+#name{
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 9%;
+    border:1px solid;
+    border-color: rgb(210,210,210);
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+#nickname{
+    height: 30px;
+    position: relative;
+    top:20px;
+    left: 9%;
+    border:1px solid;
+    border-color: rgb(210,210,210);
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+#password{
+    height:30px;
+    position: relative;
+    top:30px;
+    left:9%;
+    border:1px solid;
+    border-color: rgb(210,210,210);
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+
+#register{
+    position: relative;
+    top:20px;
+    left:9%;
+    height:30px;
+    width: 270px;
     font-size: 15px;
     color: white;
     background-color: rgb(55, 135, 210);
@@ -52,47 +99,14 @@
     border-radius: 3px;
     font-family: "Helvetica Neue";
 }
-.newphoto{
-    position: absolute;
-    top:30px;
-    left: 74%;
-    height:30px;
-    font-size: 15px;
-    color: black;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 3px;
+p{
+    position: relative;
+    top:40px;
+    text-align: center;
     font-family: "Helvetica Neue";
+    font-size: 14px;
 }
-.newphoto:hover{
-    font-size: 15px;
-    color: white;
-    background-color: green;
-    border: 1px green;
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
-}
-.exit{
-    position: absolute;
-    top:30px;
-    left: 84%;
-    height:30px;
-    font-size: 15px;
-    color: black;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
-}
-.exit:hover{
-    font-size: 15px;
-    color: white;
-    background-color: red;
-    border: 1px red;
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
-}
-body{
-    background-color: rgb(250, 250, 250);
-}
+.error{
+    color: red;
 
+}

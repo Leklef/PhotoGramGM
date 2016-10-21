@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PhotoGram</title>
-    <link href="${pageContext.request.contextPath}/css/NewsStyle.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}../css/NewsStyle.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div class="header">

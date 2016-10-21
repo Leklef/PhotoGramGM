@@ -23,7 +23,7 @@ public class Registration extends HttpServlet {
         String password = req.getParameter("password");
         if(!(DBWorker.usedNickname(nick))){
             DBWorker.addInfoDB(email,name,nick,password);
-            resp.sendRedirect("/News");
+            resp.sendRedirect("/");
         }else{
             resp.sendRedirect("/Registration");
         }

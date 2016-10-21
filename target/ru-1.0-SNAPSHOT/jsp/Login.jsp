@@ -11,7 +11,7 @@
 <head>
     <title>PhotoGram</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link href="${pageContext.request.contextPath}/css/LoginStyle.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}../css/LoginStyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="signin">

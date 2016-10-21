@@ -25,6 +25,28 @@ public class DBWorker {
         return null;
     }
 
+    public static int userId(String nick, String password){
+        Connection conn = null;
+        Statement stmt = null;
+        int id = -1;
+        try{
+            Class.forName("com.mysql.jdbs.Driver");
+            conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            String sql = "SELECT id FROM users WHERE nick="+nick+" AND password="+password;
+            stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(sql);
+            while (rs.next()){
+                id=rs.getInt("id");
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return id;
+    }
+
     public static void addInfoDB(String email, String name, String nick, String password){
         Connection conn = null;
         Statement stmt = null;
