@@ -32,10 +32,11 @@ public class DBWorker {
         try{
             Class.forName("com.mysql.jdbs.Driver");
             conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            String sql = "SELECT id FROM users WHERE nick="+nick+" AND password="+password;
+            String sql = "SELECT id,nick,password FROM users";
             stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()){
+
                 id=rs.getInt("id");
             }
         } catch (ClassNotFoundException e) {

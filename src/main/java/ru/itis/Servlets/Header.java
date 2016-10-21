@@ -11,29 +11,17 @@ import java.io.IOException;
 /**
  * Created by lenar on 21.10.16.
  */
-@WebServlet("/")
-public class userPage extends HttpServlet{
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        HttpSession session = req.getSession();
-        if(session.getAttribute("authorized")!="ok"){
-            resp.sendRedirect("/Login");
-        }
-        else {
-            req.getRequestDispatcher("/jsp/userPage.jsp").forward(req,resp);
-        }
-
-    }
-
+@WebServlet("/header")
+public class Header extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (req.getParameter("myprofile")!=null){
+            resp.sendRedirect("/");
+        }
         if (req.getParameter("exit") != null) {
             HttpSession session = req.getSession();
             session.invalidate();
             resp.sendRedirect("/Login");
-        }
-        if (req.getParameter("addPhoto") != null) {
-            resp.sendRedirect("/NewPost");
         }
     }
 }

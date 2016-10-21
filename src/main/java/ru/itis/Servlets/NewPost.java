@@ -26,7 +26,13 @@ public class NewPost extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/NewPost.jsp").forward(req,resp);
+        HttpSession session = req.getSession();
+        if(session.getAttribute("authorized")!="ok"){
+            resp.sendRedirect("/Login");
+        }
+        else {
+            req.getRequestDispatcher("/jsp/NewPost.jsp").forward(req,resp);
+        }
     }
 
     @Override
@@ -48,7 +54,7 @@ public class NewPost extends HttpServlet {
                     String path = getServletContext().getRealPath("/");
                     if(FileUpload.processFile(path,item)){
                         resp.getWriter().println("file_uploaded"+path);
-                        resp.getWriter().println(DBWorker.userId((String)session.getAttribute("login"),(String)session.getAttribute("password")));
+                        resp.getWriter().println(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))));
 
                     }else{
                         resp.getWriter().println("fail");

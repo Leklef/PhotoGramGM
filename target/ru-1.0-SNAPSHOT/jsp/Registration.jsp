@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: lenar
@@ -10,7 +11,7 @@
 <head>
     <title>PhotoGram</title>
     <link href="${pageContext.request.contextPath}../css/RegistrationStyle.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.js"></script>
+    <script type="text/javascript" src="<c:url value="/js/jquery.js"/>"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.validate.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/RegistrationJS.js"></script>
 </head>
