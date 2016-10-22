@@ -15,8 +15,8 @@
 <body>
 <div class="header">
     <h1>PhotoGram</h1>
-    <form name="Header" action="Header" method="post">
-    <button type="submit" name="myprofile" class="myprofile">Мой профиль</button>
+    <form name="newPost" action="NewPost" method="post">
+    <button type="submit" name="myProfile" class="myprofile">Мой профиль</button>
     <button type="submit" name="exit"  class = "exit">Выйти</button>
     </form>
 </div>

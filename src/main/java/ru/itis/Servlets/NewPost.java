@@ -37,32 +37,42 @@ public class NewPost extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ServletFileUpload upload = new ServletFileUpload();
-        HttpSession session = req.getSession();
-        try {
-            FileItemIterator itr = upload.getItemIterator(req);
-            while(itr.hasNext()){
-                FileItemStream item = itr.next();
-                if(item.isFormField()){
-                    String fieldName = item.getFieldName();
-                    InputStream is = item.openStream();
-                    byte[] b = new byte[is.available()];
-                    is.read(b);
-                    String value = new String(b);
-                    resp.getWriter().println(fieldName+":"+value+"</br>");
-                }else{
-                    String path = getServletContext().getRealPath("/");
-                    if(FileUpload.processFile(path,item)){
-                        resp.getWriter().println("file_uploaded"+path);
-                        resp.getWriter().println(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))));
-
+        if (req.getParameter("send")!=null){
+            ServletFileUpload upload = new ServletFileUpload();
+            HttpSession session = req.getSession();
+            try {
+                FileItemIterator itr = upload.getItemIterator(req);
+                while(itr.hasNext()){
+                    FileItemStream item = itr.next();
+                    if(item.isFormField()){
+                        String fieldName = item.getFieldName();
+                        InputStream is = item.openStream();
+                        byte[] b = new byte[is.available()];
+                        is.read(b);
+                        String value = new String(b);
+                        resp.getWriter().println(fieldName+":"+value+"</br>");
                     }else{
-                        resp.getWriter().println("fail");
+                        String path = getServletContext().getRealPath("/");
+                        if(FileUpload.processFile(path,item)){
+                            resp.getWriter().println("file_uploaded"+path);
+                            resp.getWriter().println(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))));
+
+                        }else{
+                            resp.getWriter().println("fail");
+                        }
                     }
                 }
+            }catch (FileUploadException fue){
+                fue.printStackTrace();
             }
-        }catch (FileUploadException fue){
-            fue.printStackTrace();
+        }
+        if (req.getParameter("myProfile")!=null){
+            resp.sendRedirect("/");
+        }
+        if (req.getParameter("exit") != null) {
+            HttpSession session = req.getSession();
+            session.invalidate();
+            resp.sendRedirect("/Login");
         }
     }
 }

@@ -30,17 +30,13 @@ public class DBWorker {
         Statement stmt = null;
         int id = -1;
         try{
-            Class.forName("com.mysql.jdbs.Driver");
             conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             String sql = "SELECT id,nick,password FROM users";
             stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()){
-
                 id=rs.getInt("id");
             }
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
         }
