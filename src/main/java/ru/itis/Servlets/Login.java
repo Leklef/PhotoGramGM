@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
 
 
 /**
@@ -19,8 +20,6 @@ import java.io.PrintWriter;
 public class Login extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        resp.setStatus(200);
         String loginField = req.getParameter("nickname");
         String passwordField = req.getParameter("password");
 
@@ -30,7 +29,14 @@ public class Login extends HttpServlet{
                 session.setAttribute("authorized","ok");
                 session.setAttribute("login",loginField);
                 session.setAttribute("password",passwordField);
-                resp.sendRedirect("/");
+                try {
+                    session.setAttribute("id", DBWorker.userId(loginField,passwordField));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+                resp.sendRedirect("/user");
             } else {
                 String varTextB = "Не удалось войти в систему!";
                 req.setAttribute("textB", varTextB);
@@ -49,8 +55,7 @@ public class Login extends HttpServlet{
             req.getRequestDispatcher("/jsp/Login.jsp").forward(req,resp);
         }
         else {
-            resp.sendRedirect("/");
+            resp.sendRedirect("/user");
         }
-        req.getRequestDispatcher("/jsp/Login.jsp").forward(req,resp);
     }
 }

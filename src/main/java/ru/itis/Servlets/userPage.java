@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Created by lenar on 21.10.16.
  */
-@WebServlet("/")
+@WebServlet("/user")
 public class userPage extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,7 +22,6 @@ public class userPage extends HttpServlet{
         else {
             req.getRequestDispatcher("/jsp/userPage.jsp").forward(req,resp);
         }
-
     }
 
     @Override

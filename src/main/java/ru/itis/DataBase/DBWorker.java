@@ -25,23 +25,37 @@ public class DBWorker {
         return null;
     }
 
-    public static int userId(String nick, String password){
+    public static int userId(String nick, String password) throws SQLException, ClassNotFoundException {
         Connection conn = null;
         Statement stmt = null;
         int id = -1;
-        try{
-            conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            String sql = "SELECT id,nick,password FROM users";
-            stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(sql);
-            while (rs.next()){
-                id=rs.getInt("id");
+
+        conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        String sql = "SELECT id,nick,password FROM users";
+        stmt = conn.createStatement();
+        ResultSet rs = stmt.executeQuery(sql);
+        while (rs.next()){
+            if(rs.getString("nick").equals(nick)){
+                if(rs.getString("password").equals(password)) id=rs.getInt("id");
             }
+        }
+        return id;
+    }
+
+    public static void addNewPostDB(int id, String path, String comment){
+        Connection conn = null;
+        Statement stmt = null;
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            String sql = "INSERT INTO newPost(id,image,comment) VALUES ('"+id+"','"+ path +"', '"+comment+"')";
+            stmt = conn.createStatement();
+            stmt.execute(sql);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-        return id;
     }
 
     public static void addInfoDB(String email, String name, String nick, String password){

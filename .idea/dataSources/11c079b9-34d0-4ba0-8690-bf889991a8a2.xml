@@ -46,7 +46,7 @@
     </column>
     <column id="16" parent="7" name="image">
       <mandatory>1</mandatory>
-      <data-type>mediumblob|0</data-type>
+      <data-type>varchar(300)|0</data-type>
     </column>
     <column id="17" parent="7" name="comment">
       <mandatory>1</mandatory>

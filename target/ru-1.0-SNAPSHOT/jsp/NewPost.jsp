@@ -10,12 +10,12 @@
 <head>
     <meta charset="UTF-8">
     <title>PhotoGram</title>
-    <link href="${pageContext.request.contextPath}../css/NewPostStyle.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/NewPostStyle.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
     <h1>PhotoGram</h1>
-    <form name="newPost" action="NewPost" method="post">
+    <form name="headerButtons" action="header" method="post">
     <button type="submit" name="myProfile" class="myprofile">Мой профиль</button>
     <button type="submit" name="exit"  class = "exit">Выйти</button>
     </form>
@@ -23,10 +23,9 @@
 <div>
     <form name="newPost" enctype="multipart/form-data" action="NewPost" method="post">
         <input class="download" type="file" id="file" accept="image/*" name="file">
-        <%--<img src="star-wars-battlefront-2016-2560x1440-wallpaper-18492.jpg">--%>
-    <label for="comment">Комментарий</label>
-    <textarea id="comment" class="comment" name="comment"></textarea>
-    <button type="submit" class="send" id="send">Отправить</button>
+        <label for="comment">Комментарий</label>
+        <textarea id="comment" class="comment" name="comment"></textarea>
+        <button type="submit" class="send" id="send">Отправить</button>
     </form>
 </div>
 </body>

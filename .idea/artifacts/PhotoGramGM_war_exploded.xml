@@ -24,6 +24,20 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.4" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" />
           <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.6" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:8.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.5.6" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

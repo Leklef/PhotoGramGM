@@ -10,10 +10,10 @@
 <html>
 <head>
     <title>PhotoGram</title>
-    <link href="${pageContext.request.contextPath}../css/RegistrationStyle.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="<c:url value="/js/jquery.js"/>"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.validate.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/RegistrationJS.js"></script>
+    <link href="${pageContext.request.contextPath}/resources/css/RegistrationStyle.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/RegistrationJS.js"></script>
 </head>
 <body>
 <div id ="registration">

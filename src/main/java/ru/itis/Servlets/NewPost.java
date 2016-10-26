@@ -1,16 +1,18 @@
 package ru.itis.Servlets;
 
+import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemIterator;
 import org.apache.commons.fileupload.FileItemStream;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.commons.fileupload.util.Streams;
 import ru.itis.DataBase.DBWorker;
 import ru.itis.SupportingFile.FileUpload;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import java.util.*;
+import java.sql.SQLException;
 import java.io.*;
 
 /**
@@ -21,8 +23,7 @@ import java.io.*;
 public class NewPost extends HttpServlet {
 
     public static String localpath;
-    private Random random = new Random();
-    public String realPath = localpath;
+    public static String comment;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -37,42 +38,36 @@ public class NewPost extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (req.getParameter("send")!=null){
-            ServletFileUpload upload = new ServletFileUpload();
-            HttpSession session = req.getSession();
-            try {
-                FileItemIterator itr = upload.getItemIterator(req);
-                while(itr.hasNext()){
-                    FileItemStream item = itr.next();
-                    if(item.isFormField()){
-                        String fieldName = item.getFieldName();
-                        InputStream is = item.openStream();
-                        byte[] b = new byte[is.available()];
-                        is.read(b);
-                        String value = new String(b);
-                        resp.getWriter().println(fieldName+":"+value+"</br>");
-                    }else{
-                        String path = getServletContext().getRealPath("/");
-                        if(FileUpload.processFile(path,item)){
-                            resp.getWriter().println("file_uploaded"+path);
-                            resp.getWriter().println(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))));
-
-                        }else{
-                            resp.getWriter().println("fail");
-                        }
+        resp.setCharacterEncoding("UTF-8");
+        ServletFileUpload upload = new ServletFileUpload();
+        HttpSession session = req.getSession();
+        try {
+            FileItemIterator itr = upload.getItemIterator(req);
+            while (itr.hasNext()) {
+                FileItemStream item = itr.next();
+                InputStream is = item.openStream();
+                if (item.isFormField()) {
+                    String fieldName = item.getFieldName();
+                    byte[] b = new byte[is.available()];
+                    is.read(b);
+                    String value=new String(b);
+                    resp.getWriter().println(fieldName + ":" + value + "</br>");
+                    DBWorker.addNewPostDB(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))), localpath, value);
+                    resp.sendRedirect("/NewPost");
+                } else {
+                    String path = getServletContext().getRealPath("/");
+                    if (FileUpload.processFile(path, item)) {
+                    } else {
+                        resp.getWriter().println("fail");
                     }
                 }
-            }catch (FileUploadException fue){
-                fue.printStackTrace();
             }
-        }
-        if (req.getParameter("myProfile")!=null){
-            resp.sendRedirect("/");
-        }
-        if (req.getParameter("exit") != null) {
-            HttpSession session = req.getSession();
-            session.invalidate();
-            resp.sendRedirect("/Login");
+        } catch (FileUploadException fue) {
+            fue.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }

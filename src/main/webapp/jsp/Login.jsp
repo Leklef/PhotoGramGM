@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: lenar
@@ -10,10 +9,12 @@
 <html>
 <head>
     <title>PhotoGram</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link href="${pageContext.request.contextPath}../css/LoginStyle.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/resources/css/LoginStyle.css" rel="stylesheet">
 </head>
 <body>
+<table>
+    <tr>
+    <td>
 <div id="signin">
     <h1>PhotoGram</h1>
     <form method="POST" id="loginForm" name="form">
@@ -22,8 +23,12 @@
     <button type="submit" name="Login" id="Login" onclick="document.form.action='/Login'"><strong>Войти</strong></button>
     </form>
     </div>
-<div id="registration">
+    </td>
+    </tr>
+<td><div id="registration">
     <br>Еще нет аккаунта? <a href="/Registration">Зарегистрироватся</a>
 </div>
+    </td>
+</table>
 </body>
 </html>

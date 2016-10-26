@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+.lenta{
+    position: absolute;
+    top:30px;
+    left:69%;
+    height:30px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.lenta:hover{
+    font-size: 15px;
+    color: white;
+    background-color: white;
+    background-color: rgb(55, 135, 210);
+    border: 1px rgb(55, 135, 210);
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.newphoto{
+    position: absolute;
+    top:30px;
+    left: 74%;
+    height:30px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.newphoto:hover{
+    font-size: 15px;
+    color: white;
+    background-color: white;
+    background-color: green;
+    border: 1px green;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.exit{
+    position: absolute;
+    top:30px;
+    left: 84%;
+    height:30px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.exit:hover{
+    font-size: 15px;
+    color: white;
+    background-color: white;
+    background-color: red;
+    border: 1px red;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+
+.about{
+    background: white;
+    position: absolute;
+    top:0px;
+    height: 45%;
+    width:100%;
+
+}
+.about h1{
+    font-family: "Helvetica Neue";
+}
+.search{
+    position: absolute;
+    top:30px;
+    left: 49%;
+    height: 27px;
+    width: 19%;
+    border:1px solid;
+    border-color: rgb(210,210,210);
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+
+.input3                                  {font-size: 14px;}
+.input3::-webkit-input-placeholder       {font-size: 14px; font-family: "Helvetica Neue";}
+.input3::-webkit-input-placeholder       {line-height: 13px;  transition: line-height 0.5s ease;}
+.input3::-moz-placeholder                {line-height: 13px;  transition: line-height 0.5s ease;}
+.input3:-moz-placeholder                 {line-height: 13px;  transition: line-height 0.5s ease;}
+.input3:-ms-input-placeholder            {line-height: 13px;  transition: line-height 0.5s ease;}
+.input3:focus::-webkit-input-placeholder {line-height: 100px; transition: line-height 0.5s ease;}
+.input3:focus::-moz-placeholder          {line-height: 100px; transition: line-height 0.5s ease;}
+.input3:focus:-moz-placeholder           {line-height: 100px; transition: line-height 0.5s ease;}
+.input3:focus:-ms-input-placeholder      {line-height: 100px; transition: line-height 0.5s ease;}
+
+.profileImage{
+    position: absolute;
+    top:37%;
+    left:15%;
+    height: 140px;
+    width: 140px;
+    border-radius: 150px;
+}
+.nickname{
+    position: absolute;
+    top:25%;
+    left:40%;
+    font-size: 30px;
+}
+.publications{
+    position: absolute;
+    top:39%;
+    left:40%;
+    font-size: 20px;
+}
+.subscribe{
+    position: absolute;
+    top:53%;
+    left:40%;
+    font-size: 20px;
+}
+.subscribers{
+    position: absolute;
+    top:62%;
+    left:40%;
+    font-size: 20px;
+}
+.name{
+    position: absolute;
+    top:65%;
+    left:40%;
+    font-size: 20px;
+}
