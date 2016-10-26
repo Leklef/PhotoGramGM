@@ -31,6 +31,7 @@ public class Login extends HttpServlet{
                 session.setAttribute("password",passwordField);
                 try {
                     session.setAttribute("id", DBWorker.userId(loginField,passwordField));
+                    session.setAttribute("name", DBWorker.getUserName(loginField, passwordField));
                 } catch (SQLException e) {
                     e.printStackTrace();
                 } catch (ClassNotFoundException e) {
@@ -38,8 +39,6 @@ public class Login extends HttpServlet{
                 }
                 resp.sendRedirect("/user");
             } else {
-                String varTextB = "Не удалось войти в систему!";
-                req.setAttribute("textB", varTextB);
                 resp.sendRedirect("/Login");
             }
         }

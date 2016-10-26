@@ -11,11 +11,13 @@ import java.io.IOException;
 /**
  * Created by lenar on 21.10.16.
  */
-@WebServlet("/user")
+@WebServlet("/")
 public class userPage extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
+        req.setAttribute("UserName", session.getAttribute("name"));
+        req.setAttribute("UserNickName", session.getAttribute("login"));
         if(session.getAttribute("authorized")!="ok"){
             resp.sendRedirect("/Login");
         }

@@ -5,69 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43770b45-6401-4020-9b00-aebc8c476729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_8_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Trash/check.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Trash/check.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Trash/check.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/css/LoginStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/css/NewPostStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/css/RegistrationStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/css/userPageStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/js/RegistrationJS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/js/jquery.validate.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/LoginStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/LoginStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/NewPostStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/NewPostStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/RegistrationStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/RegistrationStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/userPageStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/userPageStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/RegistrationJS.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/RegistrationJS.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.validate.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/DataBase/DBWorker.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/DataBase/DBWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Login.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/NewPost.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/NewPost.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Registration.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Registration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/userPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/userPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/DataBase/DBWorker.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/DataBase/DBWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Login.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/NewPost.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/NewPost.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Registration.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Registration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/userPage.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/userPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/PhotoGramGM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PhotoGramGM_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/11c079b9-34d0-4ba0-8690-bf889991a8a2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/11c079b9-34d0-4ba0-8690-bf889991a8a2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoGramGM.iml" afterPath="$PROJECT_DIR$/PhotoGramGM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Login.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/NewPost.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/NewPost.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Registration.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/userPage.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/userPage.jsp" />
     </list>
     <ignored path="PhotoGramGM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,36 +39,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loginsystem.users" pinned="false" current-in-tab="true">
-        <entry file="dbDummy://dbtable:/f31eb870/11c079b9-34d0-4ba0-8690-bf889991a8a2/loginsystem.users">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/RegistrationStyle.css">
+      <file leaf-file-name="NewPost.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userPageStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/userPageStyle.css">
+      <file leaf-file-name="userPage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registration.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -136,18 +72,8 @@
       <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="570">
               <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -156,9 +82,60 @@
       <file leaf-file-name="NewPost.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="302">
               <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <marker date="1477465153000" expanded="true" signature="1066:1104" ph="SELECT name,... users" />
+                <marker date="1477465153000" expanded="true" signature="1734:1768" ph="SELECT id,ni... users" />
+                <marker date="1477465153000" expanded="true" signature="2368:2415" ph="INSERT INTO newPost... " />
+                <marker date="1477465153000" expanded="true" signature="2368:2420" ph="INSERT INTO newPost... " />
+                <marker date="1477465153000" expanded="true" signature="2368:2424" ph="INSERT INTO newPost... " />
+                <marker date="1477465153000" expanded="true" signature="2368:2433" ph="INSERT INTO newPost... " />
+                <marker date="1477465153000" expanded="true" signature="2368:2451" ph="INSERT INTO newPost... " />
+                <marker date="1477465153000" expanded="true" signature="3009:3124" ph="INSERT INTO users... " />
+                <marker date="1477465153000" expanded="true" signature="4122:4148" ph="SELECT nick\... users" />
+                <marker date="1477465153000" expanded="true" signature="4850:4882" ph="SELECT nick,... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,16 +148,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewPostStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/NewPostStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -246,18 +213,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Header.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/FileUpload.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/NewPostStyle.css" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/LoginStyle.css" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp" />
       </list>
     </option>
   </component>
@@ -559,6 +526,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGramGM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGramGM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -572,7 +569,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT.war" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SignUp2-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="FullScreen" value="true" />
@@ -1311,16 +1308,16 @@
       <workItem from="1477242672236" duration="698000" />
       <workItem from="1477243752684" duration="1119000" />
       <workItem from="1477303418403" duration="1118000" />
-      <workItem from="1477459952483" duration="2781000" />
+      <workItem from="1477459952483" duration="4318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99941000" />
+    <option name="totallyTimeSpent" value="101478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1331,7 +1328,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32590857" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29444444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32561132" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561132" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1620,61 +1617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1477237691000" expanded="true" signature="1054:1088" ph="SELECT id,ni... users" />
-            <marker date="1477237691000" expanded="true" signature="1688:1735" ph="INSERT INTO newPost... " />
-            <marker date="1477237691000" expanded="true" signature="1688:1740" ph="INSERT INTO newPost... " />
-            <marker date="1477237691000" expanded="true" signature="1688:1744" ph="INSERT INTO newPost... " />
-            <marker date="1477237691000" expanded="true" signature="1688:1753" ph="INSERT INTO newPost... " />
-            <marker date="1477237691000" expanded="true" signature="1688:1771" ph="INSERT INTO newPost... " />
-            <marker date="1477237691000" expanded="true" signature="2329:2444" ph="INSERT INTO users... " />
-            <marker date="1477237691000" expanded="true" signature="3442:3468" ph="SELECT nick\... users" />
-            <marker date="1477237691000" expanded="true" signature="4170:4202" ph="SELECT nick,... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1708,52 +1654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="113" selection-start-line="27" selection-start-column="113" selection-end-line="27" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/userPageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1776,6 +1680,99 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <marker date="1477465153000" expanded="true" signature="1066:1104" ph="SELECT name,... users" />
+            <marker date="1477465153000" expanded="true" signature="1734:1768" ph="SELECT id,ni... users" />
+            <marker date="1477465153000" expanded="true" signature="2368:2415" ph="INSERT INTO newPost... " />
+            <marker date="1477465153000" expanded="true" signature="2368:2420" ph="INSERT INTO newPost... " />
+            <marker date="1477465153000" expanded="true" signature="2368:2424" ph="INSERT INTO newPost... " />
+            <marker date="1477465153000" expanded="true" signature="2368:2433" ph="INSERT INTO newPost... " />
+            <marker date="1477465153000" expanded="true" signature="2368:2451" ph="INSERT INTO newPost... " />
+            <marker date="1477465153000" expanded="true" signature="3009:3124" ph="INSERT INTO users... " />
+            <marker date="1477465153000" expanded="true" signature="4122:4148" ph="SELECT nick\... users" />
+            <marker date="1477465153000" expanded="true" signature="4850:4882" ph="SELECT nick,... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="113" selection-start-line="27" selection-start-column="113" selection-end-line="27" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

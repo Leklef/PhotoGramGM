@@ -25,6 +25,24 @@ public class DBWorker {
         return null;
     }
 
+    public static String getUserName(String nick, String password) throws SQLException, ClassNotFoundException{
+        Connection conn = null;
+        Statement stmt = null;
+        String name = null;
+        conn = DriverManager.getConnection(URL,USERNAME, PASSWORD);
+        String sql = "SELECT name, nick, password FROM users";
+        stmt = conn.createStatement();
+        ResultSet rs = stmt.executeQuery(sql);
+        while (rs.next()){
+            if(rs.getString("nick").equals(nick)){
+                if(rs.getString("password").equals(password)){
+                    name = rs.getString("name");
+                }
+            }
+        }
+        return name;
+    }
+
     public static int userId(String nick, String password) throws SQLException, ClassNotFoundException {
         Connection conn = null;
         Statement stmt = null;
