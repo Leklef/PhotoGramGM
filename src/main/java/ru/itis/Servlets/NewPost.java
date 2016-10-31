@@ -51,6 +51,7 @@ public class NewPost extends HttpServlet {
                     byte[] b = new byte[is.available()];
                     is.read(b);
                     String value=new String(b);
+                    value= new String(value.getBytes("UTF-8"), "UTF-8");
                     resp.getWriter().println(fieldName + ":" + value + "</br>");
                     DBWorker.addNewPostDB(DBWorker.userId(String.valueOf(session.getAttribute("login")), String.valueOf(session.getAttribute("password"))), localpath, value);
                     resp.sendRedirect("/NewPost");

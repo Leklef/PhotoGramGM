@@ -27,10 +27,17 @@
     <%--<p class="publications">Кол-во публикаций</p>--%>
     <p class="name"><b><c:out value="${UserName}" default="Name"/></b></p>
 </div>
-
-<div class="allPhoto">
-
+<div id="block_news">
+    <div id="newsticker">
+        <ul>
+    <c:forEach items="${posts}" var="item">
+                <li>
+                    <span><img src="${item.getPath()}"></span>
+                    <p>${item.getComment()}</p>
+                </li>
+    </c:forEach>
+        </ul>
+    </div>
 </div>
-
 </body>
 </html>

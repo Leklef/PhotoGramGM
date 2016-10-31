@@ -17,7 +17,7 @@ public class FileUpload {
             if(!f.exists()){
                 f.mkdir();
             }
-            NewPost.localpath = f.getAbsolutePath()+File.separator+item.getName();
+            NewPost.localpath = "/images/"+item.getName();
             File savedFile = new File(f.getAbsolutePath()+File.separator+item.getName());
             FileOutputStream fos = new FileOutputStream(savedFile);
             InputStream is = item.openStream();

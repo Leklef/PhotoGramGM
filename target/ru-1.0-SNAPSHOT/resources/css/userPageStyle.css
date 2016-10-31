@@ -1,27 +1,6 @@
 body{
     background-color: rgb(250, 250, 250);
 }
-.lenta{
-    position: absolute;
-    top:30px;
-    left:69%;
-    height:30px;
-    font-size: 15px;
-    color: black;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
-}
-.lenta:hover{
-    font-size: 15px;
-    color: white;
-    background-color: white;
-    background-color: rgb(55, 135, 210);
-    border: 1px rgb(55, 135, 210);
-    border-radius: 3px;
-    font-family: "Helvetica Neue";
-}
 .newphoto{
     position: absolute;
     top:30px;
@@ -68,8 +47,8 @@ body{
 .about{
     background: white;
     position: absolute;
-    top:0px;
-    height: 45%;
+    top: 0px;
+    height: 300px;
     width:100%;
 
 }
@@ -136,4 +115,33 @@ body{
     top:65%;
     left:40%;
     font-size: 20px;
+}
+#block_news{
+    margin-top: 350px;
+    border-top: 10px rgb(210,210,210);
+    width: 485px;
+    height: auto;
+}
+#newsticker{
+    margin-left: 450px;
+    width: 485px;
+}
+#newsticker p{
+    font-size: 14px;
+    font-family: "Helvetica Neue";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+#newsticker li{
+    list-style-type: none;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+#newsticker img{
+    width: 400px;
+    height: 400px;
+    padding-left: 25px;
 }
