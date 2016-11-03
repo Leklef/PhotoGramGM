@@ -3,6 +3,8 @@ package ru.itis.DataBase;
 import java.sql.*;
 import java.util.LinkedList;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by lenar on 11.10.16.
@@ -64,16 +66,18 @@ public class DBWorker {
     public static void addNewPostDB(int id, String path, String comment){
         Connection conn = null;
         Statement stmt = null;
-        try{
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            String sql = "INSERT INTO newPost(id,image,comment) VALUES ('"+id+"','"+ path +"', '"+comment+"')";
-            stmt = conn.createStatement();
-            stmt.execute(sql);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
+        if(!path.equals("")) {
+            try {
+                Class.forName("com.mysql.jdbc.Driver");
+                conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+                String sql = "INSERT INTO newPost(id,image,comment) VALUES ('" + id + "','" + path + "', '" + comment + "')";
+                stmt = conn.createStatement();
+                stmt.execute(sql);
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -152,5 +156,25 @@ public class DBWorker {
             e.printStackTrace();
         }
         return correct;
+    }
+    public static LinkedList<String> searchUsers(String nickname){
+        Connection conn = null;
+        Statement stmt = null;
+        LinkedList<String> list = new LinkedList<String>();
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection(URL,USERNAME,PASSWORD);
+            stmt = conn.createStatement();
+            String query = "SELECT nick FROM users WHERE nick LIKE '"+nickname+"%'";
+            ResultSet rs = stmt.executeQuery(query);
+            while(rs.next()){
+                list.add(rs.getString("nick"));
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
     }
 }

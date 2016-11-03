@@ -4,7 +4,7 @@ body{
 .newphoto{
     position: absolute;
     top:30px;
-    left: 74%;
+    left: 1056px;
     height:30px;
     font-size: 15px;
     color: black;
@@ -25,7 +25,7 @@ body{
 .exit{
     position: absolute;
     top:30px;
-    left: 84%;
+    left: 1200px;
     height:30px;
     font-size: 15px;
     color: black;
@@ -58,8 +58,8 @@ body{
 .search{
     position: absolute;
     top:30px;
-    left: 49%;
-    height: 27px;
+    left: 690px;
+    height: 30px;
     width: 19%;
     border:1px solid;
     border-color: rgb(210,210,210);
@@ -88,9 +88,10 @@ body{
 }
 .nickname{
     position: absolute;
-    top:25%;
-    left:40%;
+    top:40%;
+    left:30%;
     font-size: 30px;
+    font-family: "Helvetica Neue";
 }
 .publications{
     position: absolute;
@@ -112,9 +113,10 @@ body{
 }
 .name{
     position: absolute;
-    top:65%;
-    left:40%;
+    top:60%;
+    left:30%;
     font-size: 20px;
+    font-family: "Helvetica Neue";
 }
 #block_news{
     margin-top: 350px;
@@ -144,4 +146,25 @@ body{
     width: 400px;
     height: 400px;
     padding-left: 25px;
+}
+
+.searchB{
+    position: absolute;
+    top:30px;
+    left: 980px;
+    height:30px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(55, 135, 210);
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: "Helvetica Neue";
+}
+.block_news h1{
+    color:lightgray;
+    position:absolute;
+    top:400px;
+    left:630px;
+    font-size:50px;
+    font-family:Helvetica Neue;
 }

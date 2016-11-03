@@ -23,6 +23,7 @@ public class userPage extends HttpServlet{
         req.setAttribute("UserName", session.getAttribute("name"));
         req.setAttribute("UserNickName", session.getAttribute("login"));
         LinkedList<Post> posts = GetAllPost.setAllPost(String.valueOf(session.getAttribute("id")));
+        req.setAttribute("count",posts.size());
         req.setAttribute("posts",posts);
         if(session.getAttribute("authorized")!="ok"){
             resp.sendRedirect("/Login");
@@ -41,6 +42,14 @@ public class userPage extends HttpServlet{
         }
         if (req.getParameter("addPhoto") != null) {
             resp.sendRedirect("/NewPost");
+        }
+        if(req.getParameter("searchB")!=null){
+            if(!(req.getParameter("search").length()<3)) {
+                resp.sendRedirect("/search?search="+req.getParameter("search"));
+            }
+            else{
+                resp.sendRedirect("/user");
+            }
         }
     }
 }
