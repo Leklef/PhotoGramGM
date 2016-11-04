@@ -19,8 +19,8 @@
 <div class="header">
     <h1>PhotoGram</h1>
     <form name="headerButtons" action="header" method="post">
-        <button type="submit" name="myProfile" class="btn btn-default waves-effect waves-light" id="myprofile">Мой профиль</button>
-        <button type="submit" name="exit" id="exit" class = "btn btn-danger waves-effect waves-light">Выйти</button>
+        <button type="submit" name="myProfile" class="btn btn-primary waves-effect waves-light" id="myprofile">Мой профиль</button>
+        <button type="submit" name="exit" id="exit" class = "btn btn-blue-grey waves-effect waves-light">Выйти</button>
     </form>
 </div>
 <c:set var="count" scope="session" value="${count}"/>

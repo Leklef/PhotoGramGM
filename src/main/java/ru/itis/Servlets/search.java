@@ -18,12 +18,17 @@ import java.util.LinkedList;
 public class search extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String nickname = req.getParameter("search");
         HttpSession session = req.getSession();
-        LinkedList<String> list = DBWorker.searchUsers(nickname);
-        list.remove((String)session.getAttribute("login"));
-        req.setAttribute("SearchList",list);
-        req.setAttribute("count",list.size());
-        req.getRequestDispatcher("/jsp/searchPage.jsp").forward(req,resp);
+        if(session.getAttribute("authorized")!="ok"){
+            resp.sendRedirect("/Login");
+        }
+        else {
+            String nickname = req.getParameter("search");
+            LinkedList<String> list = DBWorker.searchUsers(nickname);
+            list.remove((String)session.getAttribute("login"));
+            req.setAttribute("SearchList",list);
+            req.setAttribute("count",list.size());
+            req.getRequestDispatcher("/jsp/searchPage.jsp").forward(req,resp);
+        }
     }
 }
