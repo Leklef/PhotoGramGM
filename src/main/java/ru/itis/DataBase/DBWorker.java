@@ -46,18 +46,18 @@ public class DBWorker {
         return name;
     }
 
-    public static int userId(String nick, String password) throws SQLException, ClassNotFoundException {
+    public static int userId(String nick) throws SQLException, ClassNotFoundException {
         Connection conn = null;
         Statement stmt = null;
         int id = -1;
 
         conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        String sql = "SELECT id,nick,password FROM users";
+        String sql = "SELECT id,nick FROM users";
         stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(sql);
         while (rs.next()){
             if(rs.getString("nick").equals(nick)){
-                if(rs.getString("password").equals(password)) id=rs.getInt("id");
+                id=rs.getInt("id");
             }
         }
         return id;

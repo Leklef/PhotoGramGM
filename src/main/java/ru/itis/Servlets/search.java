@@ -29,6 +29,7 @@ public class search extends HttpServlet{
             req.setAttribute("SearchList",list);
             req.setAttribute("count",list.size());
             req.getRequestDispatcher("/jsp/searchPage.jsp").forward(req,resp);
+
         }
     }
 }

@@ -1,0 +1,28 @@
+.col-md-5{
+    left:600px;
+    top:100px;
+    left:420px;
+}
+.header h1{
+    position:absolute;
+    top:100px;
+    left:100px;
+
+}
+.header{
+    background-color:white;
+    width:100px;
+    height:100px;
+}
+.cardhoverable{
+    background-color:white;
+}
+
+h1{
+    color:lightgray;
+    position:absolute;
+    top:400px;
+    left:630px;
+    font-size:50px;
+    font-family:Helvetica Neue;
+}

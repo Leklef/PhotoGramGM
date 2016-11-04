@@ -26,7 +26,7 @@ public class Registration extends HttpServlet {
         if(!(DBWorker.usedNickname(nick))){
             DBWorker.addInfoDB(email,name,nick,password);
             try {
-                req.getSession().setAttribute("id", DBWorker.userId(nick,password));
+                req.getSession().setAttribute("id", DBWorker.userId(nick));
                 req.getSession().setAttribute("name", name);
                 req.getSession().setAttribute("login",nick);
                 req.getSession().setAttribute("authorized","ok");

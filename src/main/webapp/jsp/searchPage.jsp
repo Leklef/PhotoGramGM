@@ -36,7 +36,7 @@
             <div class="card-image">
                 <div class="view overlay hm-white-slight z-depth-1">
                     <img src="/resources/img/123.png" class="img-responsive" alt="">
-                    <a href="#">
+                    <a href="/friend?nickname=${nick}">
                         <div class="mask waves-effect"></div>
                     </a>
                 </div>

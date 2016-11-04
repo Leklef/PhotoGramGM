@@ -26,5 +26,13 @@ public class HeaderButtons extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (req.getParameter("exit") != null) {
+            req.getSession().invalidate();
+            resp.sendRedirect("/Login");
+        }
+
+        if (req.getParameter("myProfile") != null){
+            resp.sendRedirect("/user");
+        }
     }
 }

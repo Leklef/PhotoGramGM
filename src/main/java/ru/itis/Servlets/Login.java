@@ -30,7 +30,7 @@ public class Login extends HttpServlet{
                 session.setAttribute("login",loginField);
                 session.setAttribute("password",passwordField);
                 try {
-                    session.setAttribute("id", DBWorker.userId(loginField,passwordField));
+                    session.setAttribute("id", DBWorker.userId(loginField));
                     session.setAttribute("name", DBWorker.getUserName(loginField, passwordField));
                 } catch (SQLException e) {
                     e.printStackTrace();
