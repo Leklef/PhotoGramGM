@@ -6,6 +6,7 @@ import ru.itis.Servlets.NewPost;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.Random;
 
 /**
  * Created by lenar on 20.10.16.
@@ -13,12 +14,15 @@ import java.io.InputStream;
 public class FileUpload {
     public static boolean processFile(String path, FileItemStream item){
         try {
-            File f = new File(path+File.separator+"images");
+            Random random = new Random();
+            int r = random.nextInt();
+            int ra = random.nextInt();
+            File f = new File(path+File.separator+"images"+r);
             if(!f.exists()){
                 f.mkdir();
             }
-            NewPost.localpath = "/images/"+item.getName();
-            File savedFile = new File(f.getAbsolutePath()+File.separator+item.getName());
+            NewPost.localpath = "/images"+r+"/"+ra+"image.jpg";
+            File savedFile = new File(f.getAbsolutePath()+File.separator+ra+"image.jpg");
             FileOutputStream fos = new FileOutputStream(savedFile);
             InputStream is = item.openStream();
             int x = 0;

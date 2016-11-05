@@ -21,19 +21,25 @@ import java.util.LinkedList;
 public class Friend extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String nick = req.getParameter("nickname");
         HttpSession session = req.getSession();
-        LinkedList<Post> posts = null;
-        try {
-            posts = GetAllPost.setAllPost(String.valueOf(DBWorker.userId(nick)));
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+        if(session.getAttribute("authorized")=="ok"){
+            String nick = req.getParameter("nickname");
+            LinkedList<Post> posts = null;
+            try {
+                posts = GetAllPost.setAllPost(String.valueOf(DBWorker.userId(nick)));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            req.setAttribute("count",posts.size());
+            req.setAttribute("posts",posts);
+            req.setAttribute("nick",nick);
+            req.setAttribute("name", DBWorker.getName(nick));
+            req.getRequestDispatcher("/jsp/Friend.jsp").forward(req,resp);
         }
-        req.setAttribute("count",posts.size());
-        req.setAttribute("posts",posts);
-        req.setAttribute("nick",nick);
-        req.getRequestDispatcher("/jsp/Friend.jsp").forward(req,resp);
+        else {
+            resp.sendRedirect("/Login");
+        }
     }
 }

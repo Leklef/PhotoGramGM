@@ -11,41 +11,84 @@
 <head>
     <meta charset="UTF-8">
     <title>PhotoGram</title>
-    <link href="${pageContext.request.contextPath}/resources/css/userPageStylee.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.validate.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/SearchJS.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/mdb.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/compiled.min.css">
+    <script src="${pageContext.request.contextPath}/resources/js/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/sweetalert.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/userStyle.css" />
 </head>
 <body>
 
-<div class="about">
-    <h1>PhotoGram</h1>
-    <form method="post">
-        <input type="text" class="search" name="search" id="search" placeholder="Поиск пользователей">
-        <button type="submit" class="searchB" id="searchB"  name="searchB" onclick="checkForm()">Поиск</button>
-        <button type="submit" class="newphoto" name="addPhoto">Добавить фото</button>
-        <button type="submit" class = "exit" name="exit">Выйти</button>
-    </form>
-    <img src="/resources/img/123.png" class="profileImage">
-    <p class="nickname"><b><c:out value="${UserNickName}" default="Nick"/></b></p>
-    <%--<p class="publications">Кол-во публикаций</p>--%>
-    <p class="name"><b><c:out value="${UserName}" default="Name"/></b></p>
-</div>
-<div id="block_news" class="block_news">
-    <div id="newsticker">
-        <c:set var="count" scope="session" value="${count}"/>
-        <c:if test="${count<=0}">
-            <h1>Нет фото</h1>
-        </c:if>
-        <ul>
-    <c:forEach items="${posts}" var="item">
-                <li>
-                    <span><img src="${item.getPath()}"></span>
-                    <p>${item.getComment()}</p>
+<nav class="navbar navbar-fixed-top scrolling-navbar navbar-dark bg-primary">
+
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+        <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+            <a class="navbar-brand waves-effect waves-light" href="/user">PhotoGram</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a href="/user" class="nav-link">Моя страница <span class="sr-only">(current)</span></a>
                 </li>
-    </c:forEach>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="/NewPost">Добавить фото</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
+                </li>
+            </ul>
+            <form class="form-inline waves-effect waves-light" method="get" action="/search" id="search" name="search">
+                <input id="searchTF" name="search" class="form-control" type="text" placeholder="Поиск">
+            </form>
+        </div>
     </div>
+</nav>
+
+<div id="profileImageDiv" class="view overlay hm-white-slight z-depth-1">
+    <img src="/resources/img/123.png" class="img-responsive" id="profileImage">
+    <a>
+        <div class="mask waves-effect"></div>
+    </a>
 </div>
+<div id="header" class="view overlay hm-white-slight z-depth-1">
+    <h1>${UserNickName}</h1>
+    <h2>${UserName}</h2>
+</div>
+<c:set var="count" scope="session" value="${count}"/>
+<c:if test="${count<=0}">
+    <h1 class="noPhoto">Нет фото</h1>
+</c:if>
+
+<div class="col-md-5">
+    <!--Image Card-->
+    <c:forEach var="posts" items="${posts}">
+        <script>var path = '<c:out value="${posts.getPath()}"/>'</script>
+        <div class="card hoverable" onclick="clicked(path)">
+            <div class="card-image">
+                <div class="view overlay hm-white-slight z-depth-1">
+                    <img src="${posts.getPath()}" id="img" class="img-responsive" alt="">
+                    <a>
+                        <div class="mask waves-effect"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-content">
+                <h5>${posts.getComment()}</h5>
+            </div>
+        </div>
+    </c:forEach>
+    <!--Image Card-->
+</div>
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/tether.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/mdb.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/friendPageSearch.js"></script>
 </body>
 </html>

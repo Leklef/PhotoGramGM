@@ -6,6 +6,12 @@
     width:100%;
 
 }
+#file-path{
+    position:absolute;
+    top:170px;
+    left:90px;
+    width:480px;
+}
 .header h1{
     font-family:Helvetica Neue;
     margin-top:15px;
@@ -16,7 +22,7 @@ body{
 }
 #download{
     position: absolute;
-    top: 130px;
+    top: 230px;
     left:180px;
 }
 #send{

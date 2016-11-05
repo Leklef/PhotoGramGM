@@ -14,7 +14,9 @@
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/resources/css/mdb.min.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/resources/css/compiled.min.css">
-    <link href="${pageContext.request.contextPath}/resources/css/FrieendStyle.css" rel="stylesheet">
+    <script src="${pageContext.request.contextPath}/resources/js/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/sweetalert.css" />
+    <link href="${pageContext.request.contextPath}/resources/css/FriendStyle.css" rel="stylesheet">
 </head>
 <body>
 
@@ -39,18 +41,25 @@
                     <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
                 </li>
             </ul>
-            <form class="form-inline waves-effect waves-light" method="get" action="/search" name="search">
-                <input name="search" class="form-control" type="text" placeholder="Поиск">
+            <form class="form-inline waves-effect waves-light" method="get" action="/search" id="search" name="search">
+                <input id="searchTF" name="search" class="form-control" type="text" placeholder="Поиск">
             </form>
         </div>
     </div>
 </nav>
-<div class="header">
+<div id="profileImageDiv" class="view overlay hm-white-slight z-depth-1">
+    <img src="/resources/img/123.png" class="img-responsive" id="profileImage">
+    <a>
+        <div class="mask waves-effect"></div>
+    </a>
+</div>
+<div id="header" class="view overlay hm-white-slight z-depth-1">
 <h1>${nick}</h1>
+    <h2>${name}</h2>
 </div>
 <c:set var="count" scope="session" value="${count}"/>
 <c:if test="${count<=0}">
-    <h1>Нет фото</h1>
+    <h1 class="noPhoto">Нет фото</h1>
 </c:if>
 <div class="col-md-5">
     <!--Image Card-->
@@ -76,6 +85,7 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/tether.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/mdb.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/friendPageSearch.js"></script>
 
 </body>
 </html>

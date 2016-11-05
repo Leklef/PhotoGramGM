@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(250,250,250);
+}
+
+#header{
+    position:absolute;
+    background-color:white;
+    height:260px;
+    width:500px;
+    top:120px;
+    left:600px;
+}
+
+.col-md-5 {
+    left: 600px;
+    top: 420px;
+    left: 420px;
+}
+
+#header h1 {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 60px;
+    font-family: Helvetica Neue;
+}
+
+.cardhoverable {
+    background-color: white;
+}
+
+#profileImageDiv {
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    height: 260px;
+    width: 260px;
+    background-color: white;
+}
+
+.noPhoto{
+    color: lightgray;
+    position: absolute;
+    top: 500px;
+    left: 630px;
+    font-size: 50px;
+    font-family: Helvetica Neue;
+}
+
+#profileImage {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#header h2{
+    position:absolute;
+    top:150px;
+    left:50px;
+    color:gray;
+}
+.navbar{
+    height:55px;
+}

@@ -1,5 +1,7 @@
 package ru.itis.Servlets;
 
+import ru.itis.DataBase.DBWorker;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,6 +34,10 @@ public class HeaderButtons extends HttpServlet{
         }
 
         if (req.getParameter("myProfile") != null){
+            resp.sendRedirect("/user");
+        }
+        if (req.getParameter("delete")!=null){
+            DBWorker.deletePost(req.getParameter("delete"));
             resp.sendRedirect("/user");
         }
     }
