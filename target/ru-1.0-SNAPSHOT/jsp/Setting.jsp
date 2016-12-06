@@ -73,7 +73,11 @@
 <div id="line">
     <hr>
 </div>
-
+<div id="delete">
+    <a href="/header?deletePageID=${delete}">
+<button class="btn btn-primary waves-effect waves-light" id="send">Удалить страницу</button>
+</a>
+</div>
 <%--<form name="userInfoSetting" id="userInfoSetting" enctype="text/plain" action="settings" method="post">--%>
 
 <%--</form>--%>

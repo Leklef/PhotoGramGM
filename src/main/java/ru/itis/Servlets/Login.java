@@ -33,7 +33,7 @@ public class Login extends HttpServlet{
                 session.setAttribute("password",passwordField);
                 try {
                     session.setAttribute("id", DBWorker.userId(loginField));
-                    session.setAttribute("name", DBWorker.getUserName(loginField, passwordField));
+                    session.setAttribute("name", DBWorker.getUserName(loginField));
                 } catch (SQLException e) {
                     e.printStackTrace();
                 } catch (ClassNotFoundException e) {

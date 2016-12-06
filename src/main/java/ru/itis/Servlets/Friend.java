@@ -33,6 +33,13 @@ public class Friend extends HttpServlet{
                 e.printStackTrace();
             }
             req.setAttribute("count",posts.size());
+            try {
+                req.setAttribute("userPhoto",DBWorker.getUserPhoto(DBWorker.userId(nick)));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
             req.setAttribute("posts",posts);
             req.setAttribute("nick",nick);
             req.setAttribute("name", DBWorker.getName(nick));

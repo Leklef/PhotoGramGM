@@ -40,3 +40,8 @@ body {
     width: 100%;
     height: 1px;
 }
+#delete{
+    position: absolute;
+    top:700px;
+    left:800px;
+}

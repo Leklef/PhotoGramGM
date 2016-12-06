@@ -38,10 +38,10 @@
                     <a class="nav-link waves-effect waves-light" href="/NewPost">Добавить фото</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
+                    <a class="nav-link waves-effect waves-light" href="/settings">Настройки</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="/settings">Настройки</a>
+                    <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
                 </li>
             </ul>
             <form class="form-inline waves-effect waves-light" method="get" action="/search" id="search" name="search">
@@ -51,7 +51,7 @@
     </div>
 </nav>
 <div id="profileImageDiv" class="view overlay hm-white-slight z-depth-1">
-    <img src="/resources/img/123.png" class="img-responsive" id="profileImage">
+    <img src="${userPhoto}" class="img-responsive" id="profileImage">
     <a>
         <div class="mask waves-effect"></div>
     </a>

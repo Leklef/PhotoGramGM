@@ -1,6 +1,7 @@
 package ru.itis.DataBase;
 
 import org.apache.commons.codec.digest.DigestUtils;
+import ru.itis.SupportingFile.UserModel;
 
 import java.sql.*;
 import java.util.LinkedList;
@@ -30,20 +31,18 @@ public class DBWorker {
         return null;
     }
 
-    public static String getUserName(String nick, String password) throws SQLException, ClassNotFoundException{
+    public static String getUserName(String nick) throws SQLException, ClassNotFoundException{
         Connection conn = null;
         Statement stmt = null;
         String name = null;
         conn = DriverManager.getConnection(URL,USERNAME, PASSWORD);
-        String sql = "SELECT name, username, password FROM userinfo";
+        String sql = "SELECT name, username FROM userinfo";
         stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(sql);
 
         while (rs.next()){
             if(rs.getString("username").equals(nick)){
-                if(rs.getString("password").equals(password)){
-                    name = rs.getString("name");
-                }
+                name = rs.getString("name");
             }
         }
         return name;
@@ -176,10 +175,11 @@ public class DBWorker {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            String sql = "call add_user('"+name+"','"+nick+"','"+email+"','"+password+"')";
+            String sql = "call add_user('"+name+"','"+nick+"','"+email+"')";
             stmt = conn.createStatement();
             stmt.executeUpdate(sql);
             int id = DBWorker.userId(nick);
+            stmt.executeUpdate("call add_password("+id+", '"+password+"')");
             sql = "call add_userPhoto("+id+")";
             stmt = conn.createStatement();
             stmt.executeUpdate(sql);
@@ -231,15 +231,13 @@ public class DBWorker {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             stmt = conn.createStatement();
-            String query = "SELECT username, password from userinfo";
+            String query = "SELECT password from password_tables WHERE user_id="+DBWorker.userId(loginField);
             ResultSet rs = stmt.executeQuery(query);
             while (rs.next()) {
-                if(rs.getString("username").equals(loginField)){
-                    if(rs.getString("password").equals(passwordField))
-                        correct = true;
-                    break;
+                if (rs.getString("password").equals(passwordField))
+                    correct = true;
+                break;
                 }
-            }
             conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -306,5 +304,24 @@ public class DBWorker {
             e.printStackTrace();
         }
         return comment;
+    }
+
+    public static void deleteUser(String id){
+        Connection conn = null;
+        Statement stmt = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection(URL,USERNAME,PASSWORD);
+            stmt = conn.createStatement();
+            stmt.executeUpdate("DELETE FROM userPhoto WHERE user_id="+id);
+            stmt.executeUpdate("DELETE FROM users_comment WHERE user_id="+id);
+            stmt.executeUpdate("DELETE FROM all_Post WHERE user_id="+id);
+            stmt.executeUpdate("DELETE FROM password_tables WHERE user_id="+id);
+            stmt.executeUpdate("DELETE FROM userinfo WHERE id="+id);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

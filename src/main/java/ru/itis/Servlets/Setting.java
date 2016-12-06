@@ -34,6 +34,7 @@ public class Setting extends HttpServlet{
         else {
             try {
                 String imageName = DBWorker.getUserPhoto(DBWorker.userId(String.valueOf(session.getAttribute("login"))));
+                req.setAttribute("delete", String.valueOf(DBWorker.userId(String.valueOf(session.getAttribute("login")))));
                 req.setAttribute("userPhoto", imageName);
             } catch (SQLException e) {
                 e.printStackTrace();

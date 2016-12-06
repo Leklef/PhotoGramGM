@@ -40,5 +40,10 @@ public class HeaderButtons extends HttpServlet{
             DBWorker.deletePost(req.getParameter("delete"));
             resp.sendRedirect("/user");
         }
+        if (req.getParameter("deletePageID")!=null){
+            DBWorker.deleteUser(req.getParameter("deletePageID"));
+            req.getSession().invalidate();
+            resp.sendRedirect("/Login");
+        }
     }
 }
