@@ -1,5 +1,6 @@
 package ru.itis.Servlets;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import ru.itis.DataBase.DBWorker;
 
 import javax.servlet.ServletException;
@@ -23,6 +24,7 @@ public class Registration extends HttpServlet {
         String name = req.getParameter("name");
         String nick = req.getParameter("nickname");
         String password = req.getParameter("password");
+        password = DigestUtils.md5Hex(password);
         if(!(DBWorker.usedNickname(nick))){
             DBWorker.addInfoDB(email,name,nick,password);
             try {

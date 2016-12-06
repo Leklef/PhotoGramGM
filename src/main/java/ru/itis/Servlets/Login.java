@@ -1,5 +1,6 @@
 package ru.itis.Servlets;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import ru.itis.DataBase.DBWorker;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -24,6 +25,7 @@ public class Login extends HttpServlet{
         String passwordField = req.getParameter("password");
 
         if (!(loginField == null) & !(passwordField == null)) {
+            passwordField = DigestUtils.md5Hex(passwordField);
             if (DBWorker.assertUser(loginField, passwordField)) {
                 HttpSession session = req.getSession();
                 session.setAttribute("authorized","ok");

@@ -8,51 +8,53 @@
     <schema id="3" name="mysql"/>
     <schema id="4" name="performance_schema"/>
     <schema id="5" name="sys"/>
-    <table id="6" parent="1" name="users"/>
-    <table id="7" parent="1" name="newPost"/>
-    <column id="8" parent="6" name="id">
+    <schema id="6" name="control"/>
+    <schema id="7" name="PhotoGram"/>
+    <table id="8" parent="1" name="users"/>
+    <table id="9" parent="1" name="newPost"/>
+    <column id="10" parent="8" name="id">
       <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="9" parent="6" name="email">
+    <column id="11" parent="8" name="email">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="10" parent="6" name="name">
+    <column id="12" parent="8" name="name">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="11" parent="6" name="nick">
+    <column id="13" parent="8" name="nick">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="12" parent="6" name="password">
+    <column id="14" parent="8" name="password">
       <mandatory>1</mandatory>
       <data-type>varchar(60)|0</data-type>
     </column>
-    <key id="13" parent="6" name="PRIMARY">
+    <key id="15" parent="8" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="14" parent="7" name="id">
+    <column id="16" parent="9" name="id">
       <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
     </column>
-    <column id="15" parent="7" name="post_id">
+    <column id="17" parent="9" name="post_id">
       <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="16" parent="7" name="image">
+    <column id="18" parent="9" name="image">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="17" parent="7" name="comment">
+    <column id="19" parent="9" name="comment">
       <mandatory>1</mandatory>
       <data-type>varchar(5000)|0</data-type>
     </column>
-    <key id="18" parent="7" name="PRIMARY">
+    <key id="20" parent="9" name="PRIMARY">
       <columns>post_id</columns>
       <primary>1</primary>
     </key>

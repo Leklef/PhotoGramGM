@@ -1,0 +1,12 @@
+ru/itis/SupportingFile/Post.class
+ru/itis/Servlets/HeaderButtons.class
+ru/itis/Servlets/search.class
+ru/itis/Servlets/userPage.class
+ru/itis/Servlets/Setting.class
+ru/itis/SupportingFile/FileUpload.class
+ru/itis/DataBase/GetAllPost.class
+ru/itis/Servlets/Login.class
+ru/itis/Servlets/Friend.class
+ru/itis/Servlets/NewPost.class
+ru/itis/Servlets/Registration.class
+ru/itis/DataBase/DBWorker.class

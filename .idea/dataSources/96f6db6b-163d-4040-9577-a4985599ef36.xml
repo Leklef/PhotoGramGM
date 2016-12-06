@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - PhotoGram@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="PhotoGram">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="control"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="loginsystem"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="performance_schema"/>
+    <schema id="7" name="sys"/>
+    <table id="8" parent="1" name="all_Post"/>
+    <table id="9" parent="1" name="userPhoto"/>
+    <table id="10" parent="1" name="users_comment"/>
+    <table id="11" parent="1" name="users_likes"/>
+    <table id="12" parent="1" name="userinfo"/>
+    <routine id="13" parent="1" name="add_user">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="14" parent="1" name="add_userPhoto">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="15" parent="1" name="search_user">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <column id="16" parent="8" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="17" parent="8" name="image">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="18" parent="8" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <index id="19" parent="8" name="all_Post_userinfo_id_fk">
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="20" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="21" parent="8" name="all_Post_userinfo_id_fk">
+      <columns>user_id</columns>
+      <ref-key>~.userinfo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="22" parent="9" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="23" parent="9" name="user_image">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+      <default-expression>&apos;/resources/img/123.png&apos;</default-expression>
+    </column>
+    <index id="24" parent="9" name="userPhoto_userinfo_id_fk">
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <foreign-key id="25" parent="9" name="userPhoto_userinfo_id_fk">
+      <columns>user_id</columns>
+      <ref-key>~.userinfo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="26" parent="10" name="post_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="27" parent="10" name="comment">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="28" parent="10" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <index id="29" parent="10" name="users_comment_all_Post_id_fk">
+      <columns>post_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="30" parent="10" name="users_comment_userinfo_id_fk">
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <foreign-key id="31" parent="10" name="users_comment_all_Post_id_fk">
+      <columns>post_id</columns>
+      <ref-key>~.all_Post.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="32" parent="10" name="users_comment_userinfo_id_fk">
+      <columns>user_id</columns>
+      <ref-key>~.userinfo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="33" parent="11" name="post_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="34" parent="11" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="35" parent="12" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="36" parent="12" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="37" parent="12" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="38" parent="12" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="39" parent="12" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="40" parent="12" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <argument id="41" parent="13" name="name">
+      <direction>IN</direction>
+      <data-type>varchar(50)|0</data-type>
+    </argument>
+    <argument id="42" parent="13" name="username">
+      <direction>IN</direction>
+      <data-type>varchar(50)|0</data-type>
+    </argument>
+    <argument id="43" parent="13" name="email">
+      <direction>IN</direction>
+      <data-type>varchar(50)|0</data-type>
+    </argument>
+    <argument id="44" parent="13" name="password">
+      <direction>IN</direction>
+      <data-type>varchar(50)|0</data-type>
+    </argument>
+    <argument id="45" parent="14" name="id">
+      <direction>IN</direction>
+      <data-type>int(11)|0</data-type>
+    </argument>
+    <argument id="46" parent="15" name="nickname">
+      <direction>IN</direction>
+      <data-type>varchar(50)|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>

@@ -10,6 +10,7 @@ $('#search').submit(function () {
         return false;
     }
 });
+
 function clicked(filePath) {
     sweetAlert({
             title: "Are you sure?",

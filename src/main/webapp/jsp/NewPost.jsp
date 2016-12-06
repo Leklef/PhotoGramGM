@@ -40,8 +40,6 @@
         </div>
         <div class="col-md-6">
         <div class="md-form">
-            <textarea id="form7" class="md-textarea" name="comment"></textarea>
-            <label for="form7" class>Комментарий</label>
         </div>
         </div>
         <button type="submit" class="btn btn-primary waves-effect waves-light" id="send">Отправить</button>

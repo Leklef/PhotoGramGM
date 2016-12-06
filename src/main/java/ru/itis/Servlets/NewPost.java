@@ -51,9 +51,10 @@ public class NewPost extends HttpServlet {
                     byte[] b = new byte[is.available()];
                     is.read(b);
                     String value=new String(b);
-                    value= new String(value.getBytes("UTF-8"), "UTF-8");
                     resp.getWriter().println(fieldName + ":" + value + "</br>");
-                    DBWorker.addNewPostDB(DBWorker.userId(String.valueOf(session.getAttribute("login"))), localpath, value);
+                    DBWorker.addNewPostDB(localpath, DBWorker.userId(String.valueOf(session.getAttribute("login"))));
+                    String post_id = DBWorker.getPostID(localpath);
+                    DBWorker.newComment(post_id, value, String.valueOf(DBWorker.userId(String.valueOf(session.getAttribute("login")))));
                     resp.sendRedirect("/NewPost");
                 } else {
                     String path = getServletContext().getRealPath("/");

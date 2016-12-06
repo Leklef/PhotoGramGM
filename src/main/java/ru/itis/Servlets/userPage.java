@@ -1,5 +1,6 @@
 package ru.itis.Servlets;
 
+import ru.itis.DataBase.DBWorker;
 import ru.itis.DataBase.GetAllPost;
 import ru.itis.SupportingFile.Post;
 
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.LinkedList;
 
 /**
@@ -25,6 +27,7 @@ public class userPage extends HttpServlet{
         LinkedList<Post> posts = GetAllPost.setAllPost(String.valueOf(session.getAttribute("id")));
         req.setAttribute("count",posts.size());
         req.setAttribute("posts",posts);
+        req.setAttribute("userPhoto",DBWorker.getUserPhoto((Integer) session.getAttribute("id")));
         if(session.getAttribute("authorized")!="ok"){
             resp.sendRedirect("/Login");
         }

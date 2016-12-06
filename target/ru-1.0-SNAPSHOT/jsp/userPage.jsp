@@ -39,6 +39,9 @@
                     <a class="nav-link waves-effect waves-light" href="/NewPost">Добавить фото</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="/settings">Настройки</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
                 </li>
             </ul>
@@ -48,9 +51,9 @@
         </div>
     </div>
 </nav>
-
-<div id="profileImageDiv" class="view overlay hm-white-slight z-depth-1">
-    <img src="/resources/img/123.png" class="img-responsive" id="profileImage">
+<script>var user_id = '<c:out value=""/>'</script>
+<div id="profileImageDiv" class="view overlay hm-white-slight z-depth-1" onclick="changeUserPhoto(user_id)">
+    <img src="${userPhoto}" class="img-responsive" id="profileImage">
     <a>
         <div class="mask waves-effect"></div>
     </a>
@@ -67,8 +70,7 @@
 <div class="col-md-5">
     <!--Image Card-->
     <c:forEach var="posts" items="${posts}">
-        <script>var path = '<c:out value="${posts.getPath()}"/>'</script>
-        <div class="card hoverable" onclick="clicked(path)">
+        <div class="card hoverable" onclick="clicked('<c:out value="${posts.getPath()}"/>')">
             <div class="card-image">
                 <div class="view overlay hm-white-slight z-depth-1">
                     <img src="${posts.getPath()}" id="img" class="img-responsive" alt="">

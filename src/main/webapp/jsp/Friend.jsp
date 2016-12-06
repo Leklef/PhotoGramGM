@@ -40,6 +40,9 @@
                 <li class="nav-item">
                     <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="/settings">Настройки</a>
+                </li>
             </ul>
             <form class="form-inline waves-effect waves-light" method="get" action="/search" id="search" name="search">
                 <input id="searchTF" name="search" class="form-control" type="text" placeholder="Поиск">

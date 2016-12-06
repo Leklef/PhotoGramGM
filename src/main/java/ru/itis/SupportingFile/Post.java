@@ -8,7 +8,7 @@ public class Post {
     private String comment;
     public Post(String path, String comment){
         this.path=path;
-        this.comment=comment;
+        this.comment = comment;
     }
 
     public String getPath(){
