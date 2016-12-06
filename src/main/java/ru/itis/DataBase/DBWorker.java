@@ -111,7 +111,7 @@ public class DBWorker {
         return name;
     }
 
-    public static void changeUserPhoto(String path, int user_id){
+    public static void changeUserPhoto(String path, String user_id){
         Connection conn = null;
         Statement stmt = null;
 

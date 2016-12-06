@@ -2,6 +2,7 @@ package ru.itis.SupportingFile;
 
 import org.apache.commons.fileupload.FileItemStream;
 import ru.itis.Servlets.NewPost;
+import ru.itis.Servlets.Setting;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,6 +23,7 @@ public class FileUpload {
                 f.mkdir();
             }
             NewPost.localpath = "/images"+r+"/"+ra+"image.jpg";
+            Setting.userPhotopath = "/images"+r+"/"+ra+"image.jpg";
             File savedFile = new File(f.getAbsolutePath()+File.separator+ra+"image.jpg");
             FileOutputStream fos = new FileOutputStream(savedFile);
             InputStream is = item.openStream();

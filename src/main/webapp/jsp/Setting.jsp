@@ -38,7 +38,7 @@
                     <a class="nav-link waves-effect waves-light" href="/NewPost">Добавить фото</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link waves-effect waves-light" href="/header?exit=1">Настройки</a>
+                    <a class="nav-link waves-effect waves-light" href="/settings">Настройки</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link waves-effect waves-light" href="/header?exit=1">Выход</a>
@@ -62,17 +62,17 @@
     <div class="file-field">
         <div id="download" class="btn btn-primary waves-effect waves-light">
             <div style="text-align: center; overflow: hidden; width: 250px; height: 25px;">
-                <div style="font-family: 'Helvetica Neue';">Загрузить фото</div>
+                <div style="font-family: 'Helvetica Neue';">Изменить фото</div>
                 <input type="file" accept="image/*" name="file" id="file" class="file" size="1" style="margin-top: -50px; margin-left:-410px; -moz-opacity: 0; filter: alpha(opacity=0); opacity: 0; font-size: 150px; height: 100px;">
             </div>
         </div>
     </div>
-    <br>
-    <div id="line">
-        <hr>
-    </div>
     <%--<button type="submit" class="btn btn-primary waves-effect waves-light" id="send">Сохранить</button>--%>
 </form>
+<br>
+<div id="line">
+    <hr>
+</div>
 
 <%--<form name="userInfoSetting" id="userInfoSetting" enctype="text/plain" action="settings" method="post">--%>
 

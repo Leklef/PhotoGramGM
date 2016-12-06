@@ -39,6 +39,8 @@
             </div>
         </div>
         <div class="col-md-6">
+            <textarea id="form7" class="md-textarea" name="comment"></textarea>
+            <label for="form7">Комментарий</label>
         <div class="md-form">
         </div>
         </div>

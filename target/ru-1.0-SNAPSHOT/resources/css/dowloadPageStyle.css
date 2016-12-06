@@ -43,14 +43,15 @@ body{
 #exit{
     position: absolute;
     top:12px;
-    left: 1250px;
+    left: 1100px;
     width:initial;
     font-family:Helvetica Neue;
 }
 #myprofile{
     position: absolute;
     top:12px;
-    left:1100px;
+    left:950px;
     width:initial;
     font-family:Helvetica Neue;
 }
+
