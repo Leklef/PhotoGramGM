@@ -5,37 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43770b45-6401-4020-9b00-aebc8c476729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/96f6db6b-163d-4040-9577-a4985599ef36/_staging_/schema/PhotoGram/routine/add_password.(int(11),varchar(100)).sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/UserModel.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Friend.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/96f6db6b-163d-4040-9577-a4985599ef36/_src_/schema/PhotoGram.zip" afterPath="$PROJECT_DIR$/.idea/dataSources/96f6db6b-163d-4040-9577-a4985599ef36/_src_/schema/PhotoGram.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/DataBase/DBWorker.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/DataBase/DBWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/HeaderButtons.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/HeaderButtons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Login.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Setting.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/Setting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/search.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/Servlets/search.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/DataBase/DBWorker.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/DataBase/DBWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Friend.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Friend.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/HeaderButtons.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/HeaderButtons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Login.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Setting.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/Setting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/11c079b9-34d0-4ba0-8690-bf889991a8a2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/11c079b9-34d0-4ba0-8690-bf889991a8a2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/96f6db6b-163d-4040-9577-a4985599ef36.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/96f6db6b-163d-4040-9577-a4985599ef36.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/search.class" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/Servlets/search.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Setting.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Setting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Setting.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Setting.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/SettingStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/SettingStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Friend.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Friend.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Setting.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/Setting.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/resources/css/SettingStyle.css" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/resources/css/SettingStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/searchPage.jsp" afterPath="$PROJECT_DIR$/target/ru-1.0-SNAPSHOT/jsp/searchPage.jsp" />
     </list>
     <ignored path="PhotoGramGM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,195 +64,13 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - PhotoGram@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - PhotoGram@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="userPhoto" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - PhotoGram@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="password_tables" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PhotoGramGM" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Setting.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Setting.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchPage.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Setting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/UserModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friend.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friend.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="325" column="5" lean-forward="false" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
-              <folding>
-                <element signature="e#8921#8929#0" expanded="true" />
-                <marker date="1481051149000" expanded="true" signature="1234:1269" ph="SELECT name,... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="1802:1834" ph="SELECT id,us... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="2422:2492" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="2525:2568" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="3229:3264" ph="SELECT usern... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="4049:4108" ph="UPDATE userP... " />
-                <marker date="1481051149000" expanded="true" signature="4738:4807" ph="INSERT INTO all_Post... " />
-                <marker date="1481051149000" expanded="true" signature="5436:5492" ph="SELECT user_... userPhoto" />
-                <marker date="1481051149000" expanded="true" signature="7480:7513" ph="SELECT usern... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="8219:8240" ph="SELECT usern... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="8219:8255" ph="SELECT passw... password_tables" />
-                <marker date="1481051149000" expanded="true" signature="8219:8270" ph="SELECT passw... password_tables" />
-                <marker date="1481051149000" expanded="true" signature="8219:8271" ph="SELECT usern... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="9141:9206" ph="SELECT usern... userinfo" />
-                <marker date="1481051149000" expanded="true" signature="10009:10034" ph="INSERT INTO users_commentmissingValue... " />
-                <marker date="1481051149000" expanded="true" signature="10009:10068" ph="INSERT INTO users_comment... " />
-                <marker date="1481051149000" expanded="true" signature="10009:10082" ph="INSERT INTO users_comment... " />
-                <marker date="1481051149000" expanded="true" signature="10009:10095" ph="INSERT INTO users_comment... " />
-                <marker date="1481051149000" expanded="true" signature="10009:10103" ph="INSERT INTO users_comment... " />
-                <marker date="1481051149000" expanded="true" signature="10655:10707" ph="SELECT post_... all_post" />
-                <marker date="1481051149000" expanded="true" signature="11359:11380" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11359:11386" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11359:11395" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11434:11474" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11513:11548" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11587:11629" ph="DELETE FROM " />
-                <marker date="1481051149000" expanded="true" signature="11668:11698" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -347,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/UserModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java" />
       </list>
     </option>
   </component>
@@ -454,6 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -624,9 +425,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1407,11 +1206,12 @@
       <workItem from="1481008904831" duration="3349000" />
       <workItem from="1481026953102" duration="900000" />
       <workItem from="1481040507923" duration="10042000" />
+      <workItem from="1481088515147" duration="1894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225947000" />
+    <option name="totallyTimeSpent" value="227841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,17 +1224,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28419656" sideWeight="0.5109375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2328125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2328125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1445,8 +1245,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28419656" sideWeight="0.4890625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.228125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1518,7 +1318,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="168" />
+      <option name="time" value="170" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1532,13 +1332,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/SignUpStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/SignInStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1558,20 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#373#374#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1579,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="856" column="0" lean-forward="false" selection-start-line="856" selection-start-column="0" selection-end-line="856" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1587,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="907" column="0" lean-forward="false" selection-start-line="907" selection-start-column="0" selection-end-line="907" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,23 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="107" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,7 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,6 +1401,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_user.(varchar(50),varchar(50),varchar(50),varchar(50)).sql" />
+    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/search_user.(varchar(50)).sql" />
+    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_userPhoto.(int(11)).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_user.(varchar(50),varchar(50),varchar(50)).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_password.(int(11),varchar(100)).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar!/com/mysql/jdbc/ResultSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="3113" column="68" lean-forward="false" selection-start-line="3113" selection-start-column="68" selection-end-line="3113" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="427" column="0" lean-forward="false" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardContextValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/valves/ErrorReportValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/valves/AbstractAccessLogValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardEngineValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1651,15 +1540,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_user.(varchar(50),varchar(50),varchar(50),varchar(50)).sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="308">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/search_user.(varchar(50)).sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="54" column="112" lean-forward="false" selection-start-line="54" selection-start-column="112" selection-end-line="54" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="75" column="47" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1667,19 +1596,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_userPhoto.(int(11)).sql">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/NewPost.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="46" column="107" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Setting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="76" column="45" lean-forward="false" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="333" column="20" lean-forward="false" selection-start-line="333" selection-start-column="20" selection-end-line="333" selection-end-column="20" />
+          <folding>
+            <element signature="e#8927#8938#0" expanded="true" />
+            <marker date="1481090135000" expanded="true" signature="1234:1269" ph="SELECT name,... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="1802:1834" ph="SELECT id,us... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="2422:2492" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="2525:2568" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="3229:3264" ph="SELECT usern... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="4049:4108" ph="UPDATE userP... " />
+            <marker date="1481090135000" expanded="true" signature="4738:4807" ph="INSERT INTO all_Post... " />
+            <marker date="1481090135000" expanded="true" signature="5436:5492" ph="SELECT user_... userPhoto" />
+            <marker date="1481090135000" expanded="true" signature="7480:7513" ph="SELECT usern... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="8219:8240" ph="SELECT usern... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="8219:8255" ph="SELECT passw... password_tables" />
+            <marker date="1481090135000" expanded="true" signature="8219:8270" ph="SELECT passw... password_tables" />
+            <marker date="1481090135000" expanded="true" signature="8219:8271" ph="SELECT usern... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="9150:9218" ph="SELECT usern... userinfo" />
+            <marker date="1481090135000" expanded="true" signature="10096:10121" ph="INSERT INTO users_commentmissingValue... " />
+            <marker date="1481090135000" expanded="true" signature="10096:10155" ph="INSERT INTO users_comment... " />
+            <marker date="1481090135000" expanded="true" signature="10096:10169" ph="INSERT INTO users_comment... " />
+            <marker date="1481090135000" expanded="true" signature="10096:10182" ph="INSERT INTO users_comment... " />
+            <marker date="1481090135000" expanded="true" signature="10096:10190" ph="INSERT INTO users_comment... " />
+            <marker date="1481090135000" expanded="true" signature="10742:10794" ph="SELECT post_... all_post" />
+            <marker date="1481090135000" expanded="true" signature="11446:11467" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11446:11473" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11446:11482" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11521:11561" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11600:11635" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11674:11716" ph="DELETE FROM " />
+            <marker date="1481090135000" expanded="true" signature="11755:11785" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/GetAllPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <marker date="1480773630000" expanded="true" signature="682:723" ph="SELECT image... all_Post" />
+            <marker date="1480773630000" expanded="true" signature="1744:1792" ph="SELECT comme... users_comment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/PhotoGram.password_tables">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_user.(varchar(50),varchar(50),varchar(50)).sql">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/PhotoGram.userinfo">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1709,136 +1750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/schema/PhotoGram/routine/add_password.(int(11),varchar(100)).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar!/com/mysql/jdbc/ResultSetImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="3113" column="68" lean-forward="false" selection-start-line="3113" selection-start-column="68" selection-end-line="3113" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/coyote/http11/Http11Processor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="427" column="0" lean-forward="false" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/coyote/AbstractProcessorLight.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardWrapperValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardContextValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardHostValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/valves/ErrorReportValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/valves/AbstractAccessLogValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/core/StandardEngineValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/PhotoGram.userinfo">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/PhotoGram.password_tables">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f31eb870/96f6db6b-163d-4040-9577-a4985599ef36/PhotoGram.all_Post">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1852,156 +1763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/NewPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="112" lean-forward="false" selection-start-line="54" selection-start-column="112" selection-end-line="54" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/HeaderButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/GetAllPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <marker date="1480773630000" expanded="true" signature="682:723" ph="SELECT image... all_Post" />
-            <marker date="1480773630000" expanded="true" signature="1744:1792" ph="SELECT comme... users_comment" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/SupportingFile/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/userPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/DataBase/DBWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="325" column="5" lean-forward="false" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
-          <folding>
-            <element signature="e#8921#8929#0" expanded="true" />
-            <marker date="1481051149000" expanded="true" signature="1234:1269" ph="SELECT name,... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="1802:1834" ph="SELECT id,us... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="2422:2492" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="2525:2568" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="3229:3264" ph="SELECT usern... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="4049:4108" ph="UPDATE userP... " />
-            <marker date="1481051149000" expanded="true" signature="4738:4807" ph="INSERT INTO all_Post... " />
-            <marker date="1481051149000" expanded="true" signature="5436:5492" ph="SELECT user_... userPhoto" />
-            <marker date="1481051149000" expanded="true" signature="7480:7513" ph="SELECT usern... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="8219:8240" ph="SELECT usern... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="8219:8255" ph="SELECT passw... password_tables" />
-            <marker date="1481051149000" expanded="true" signature="8219:8270" ph="SELECT passw... password_tables" />
-            <marker date="1481051149000" expanded="true" signature="8219:8271" ph="SELECT usern... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="9141:9206" ph="SELECT usern... userinfo" />
-            <marker date="1481051149000" expanded="true" signature="10009:10034" ph="INSERT INTO users_commentmissingValue... " />
-            <marker date="1481051149000" expanded="true" signature="10009:10068" ph="INSERT INTO users_comment... " />
-            <marker date="1481051149000" expanded="true" signature="10009:10082" ph="INSERT INTO users_comment... " />
-            <marker date="1481051149000" expanded="true" signature="10009:10095" ph="INSERT INTO users_comment... " />
-            <marker date="1481051149000" expanded="true" signature="10009:10103" ph="INSERT INTO users_comment... " />
-            <marker date="1481051149000" expanded="true" signature="10655:10707" ph="SELECT post_... all_post" />
-            <marker date="1481051149000" expanded="true" signature="11359:11380" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11359:11386" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11359:11395" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11434:11474" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11513:11548" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11587:11629" ph="DELETE FROM " />
-            <marker date="1481051149000" expanded="true" signature="11668:11698" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Friend.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/Friend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/Servlets/search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Setting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding />
         </state>
       </provider>

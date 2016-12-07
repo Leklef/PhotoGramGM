@@ -246,18 +246,18 @@ public class DBWorker {
         }
         return correct;
     }
-    public static LinkedList<String> searchUsers(String nickname){
+    public static LinkedList<UserModel> searchUsers(String nickname){
         Connection conn = null;
         Statement stmt = null;
-        LinkedList<String> list = new LinkedList<String>();
+        LinkedList<UserModel> list = new LinkedList<UserModel>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(URL,USERNAME,PASSWORD);
             stmt = conn.createStatement();
-            String query = "SELECT username FROM userinfo WHERE username LIKE '"+nickname+"%';";//посмотреть здесь
+            String query = "SELECT id,username FROM userinfo WHERE username LIKE '"+nickname+"%';";//посмотреть здесь
             ResultSet rs = stmt.executeQuery(query);
             while(rs.next()){
-                list.add(rs.getString("username"));
+                list.add(new UserModel(rs.getString("username"),DBWorker.getUserPhoto(Integer.parseInt(rs.getString("id")))));
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -323,5 +323,14 @@ public class DBWorker {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public static LinkedList<UserModel> removeOwnUser (String nick, LinkedList<UserModel> list){
+        for (int i=0; i<list.size(); i++){
+            if (list.get(i).getUsername().equals(nick)){
+                list.remove(i);
+            }
+        }
+        return list;
     }
 }

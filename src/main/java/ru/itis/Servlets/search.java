@@ -1,6 +1,7 @@
 package ru.itis.Servlets;
 
 import ru.itis.DataBase.DBWorker;
+import ru.itis.SupportingFile.UserModel;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.LinkedList;
 
 /**
@@ -24,12 +26,10 @@ public class search extends HttpServlet{
         }
         else {
             String nickname = req.getParameter("search");
-            LinkedList<String> list = DBWorker.searchUsers(nickname);
-            list.remove((String)session.getAttribute("login"));
+            LinkedList<UserModel> list = DBWorker.removeOwnUser(String.valueOf(session.getAttribute("login")),DBWorker.searchUsers(nickname));
             req.setAttribute("SearchList",list);
             req.setAttribute("count",list.size());
             req.getRequestDispatcher("/jsp/searchPage.jsp").forward(req,resp);
-
         }
     }
 }

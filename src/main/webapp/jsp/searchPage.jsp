@@ -31,18 +31,18 @@
 </c:if>
 <div class="col-md-5">
     <!--Image Card-->
-    <c:forEach var="nick" items="${SearchList}">
+    <c:forEach var="user" items="${SearchList}">
         <div class="card hoverable">
             <div class="card-image">
                 <div class="view overlay hm-white-slight z-depth-1">
-                    <img src="/resources/img/123.png" class="img-responsive" alt="">
-                    <a href="/friend?nickname=${nick}">
+                    <img src="${user.getUserPhoto()}" class="img-responsive" alt="">
+                    <a href="/friend?nickname=${user.getUsername()}">
                         <div class="mask waves-effect"></div>
                     </a>
                 </div>
             </div>
             <div class="card-content">
-                <h5>${nick}</h5>
+                <h5>${user.getUsername()}</h5>
             </div>
         </div>
     </c:forEach>
